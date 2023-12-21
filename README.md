@@ -8,7 +8,7 @@
 ## Steps:
 1- In Lib diectory:
 	a- Make object file of all library source files
-		gcc -c *.c -I ./Include
+		# gcc -c *.c -I ./Include
 	b- Archive them in a static Library named "liboperation.a"
 		ar rcs liboperation.a addition.o  division.o  modulus.o  multiplication.o subtraction.o
 2- Make object file of your application
